@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
+    <style>
+        .flexcol1 {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .flexcol1 li {
+            margin: 5px 10px 5px 5px; /* Adjust the right margin value as needed */
+        }
+    </style>
+</head>
+<body>
+    <div id="page" class="site page-home">
+        <aside class="site-off desktop-hide">
+            <div class="off-canvas">
+                <div class="canvas-head flexitem">
+                    <div class="logo"><a href="/"><span class="circle"></span>Saukass</a></div>
+                    <a href="#" class="t-close flexcenter"><i class="ri-close-line"></i></a>
+                </div>
+                <div class="departments"></div>
+                <nav></nav>
+                <div class="thetop-nav"></div>
+            </div>
+        </aside>
+        <header>
+            <div class="header-top mobile-hide">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <div class="left">
+                            <ul class="flexitem main-links">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Featured Products</a></li>
+                                <li><a href="#">Wishlist</a></li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <ul class="flexitem main-links">
+                                <li><a href="main.html">Log Out</a></li>
+                                <li><a href="#">Order Tracking</a></li>
+                                <li><a href="#">USD <span class="icon-small"><i class="ri-arrow-down-s-line"></i></span></a>
+                                    <ul>
+                                        <li class="current"><a href="#">USD</a></li>
+                                        <li><a href="#">EURO</a></li>
+                                        <li><a href="#">GBP</a></li>
+                                        <li><a href="#">IDR</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">English <span class="icon-small"><i class="ri-arrow-down-s-line"></i></span></a>
+                                    <ul>
+                                        <li class="current"><a href="#">English</a></li>
+                                        <li><a href="#">German</a></li>
+                                        <li><a href="#">Spanish</a></li>
+                                        <li><a href="#">Polish</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header-top -->
+            <div class="header-nav">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <a href="#" class="trigger desktop-hide"><span class="i ri-menu-2-line"></span></a>
+                        <div class="left flexitem">
+                            <div class="logo"><a href="/"><span></span>SAUKASS®</a></div>
+                            <nav class="mobile-hide">
+                                <ul class="flexitem second-links">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="page-category.html">Products</a></li>
+                                    <li class="has-child">
+                                        <a href="page-category.html">Category
+                                            <div class="icon-small"><i class="ri-arrow-down-s-line"></i></div>
+                                        </a>
+                                        <div class="mega">
+                                            <div class="container">
+                                                <div class="wrapper">
+                                                    <div class="flexcol">
+                                                        <div class="row">
+                                                            <h4>Volta</h4>
+                                                            <ul>
+                                                                <li><a href="volta_blackgold.html">Black Gold</a></li>
+                                                                <li><a href="volta_blackwhite.html">Black White</a></li>
+                                                                <li><a href="#">Red</a></li>
+                                                                <li><a href="#">Green</a></li>
+                                                                <li><a href="#">All Black</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol">
+                                                        <div class="row">
+                                                            <h4>Thunder</h4>
+                                                            <ul>
+                                                                <li><a href="#">Red</a></li>
+                                                                <li><a href="#">Black</a></li>
+                                                                <li><a href="#">Grey</a></li>
+                                                                <li><a href="#">Yellow</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol">
+                                                        <div class="row">
+                                                            <h4>Vamos</h4>
+                                                            <ul>
+                                                                <li><a href="#">Yellow Black</a></li>
+                                                                <li><a href="#">Blue Green</a></li>
+                                                                <li><a href="#">Yellow Blue</a></li>
+                                                                <li><a href="#">Independent Red</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol">
+                                                        <div class="row">
+                                                            <h4>Beta</h4>
+                                                            <ul>
+                                                                <li><a href="#">All Black</a></li>
+                                                                <li><a href="#">Grey</a></li>
+                                                                <li><a href="#">Brown</a></li>
+                                                            </ul>
+                                                            <a href="#" class="view-all">View all brands <i
+                                                                    class="ri-arrow-right-line"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol products">
+                                                        <div class="row">
+                                                            <div class="media">
+                                                                <div class="thumbnail object-cover">
+                                                                    <a href="#">
+                                                                        <img src="assets/products/apparel4.jpg" alt="">
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="text-content">
+                                                                <h4>Most wanted!</h4>
+                                                                <a href="#" class="primary-button">Order Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="right">
+                            <ul class="flexitem second-links">
+                                <li class="mobile-hide"><a href="#">
+                                        <div class="icon-large"><i class="ri-heart-line"></i></div>
+                                        <div class="fly-item"><span class="item-number">0</span></div>
+                                    </a></li>
+                                <li><a href="cart.html" class="iscart">
+                                        <div class="icon-large">
+                                            <i class="ri-shopping-cart-line"></i>
+                                            <div class="fly-item"><span class="item-number">0</span></div>
+                                        </div>
+
+                                        <div class="icon-text">
+                                            <div class="mini-text">Total</div>
+                                            <div class="cart-total">$0.00</div>
+                                        </div>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header-nav -->
+
+
+            <div class="header-main mobile-hide">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <div class="left">
+                            <div class="dpt-cat">
+                                <div class="dpt-menu">
+                                    <ul class="second-links">
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="search-box">
+                                <form action="" class="search">
+                                    <span class="icon-large"><i class="ri-search-line"></i></span>
+                                    <input type="search" placeholder="Search for products">
+                                    <button type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header-main -->
+
+        </header>
+        <!-- Header -->
+        <main>
+
+            <div class="single-category">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="column">
+                            <div class="holder">
+                              
+                                <div class="section">
+                                    <div class="row">
+                                        <div class="cat-head">
+                                            <div class="breadcrumb">
+                                                <ul class="flexitem">
+                                                    <li><a href="index.html">Home</a></li>
+                                                    <li>Shoes</li>
+                                                </ul>
+                                            </div>
+                                            <div class="page-title">
+                                                <h1>Products</h1>
+                                            </div>
+                                            <div class="cat-description">
+                                                <p>At Saukass, we offer a wide variety of shoes to cater to every need and occasion. Whether you're looking for casual sneakers, elegant dress shoes, or sturdy boots, we have something for everyone</p>
+                                            </div>
+                                            <div class="cat-navigation flexitem">
+                                                <div class="item-filter desktop-hide">
+                                                    <a href="#" class="filter-trigger label">
+                                                        <i class="ri-menu-2-line ri-2x"></i>
+                                                        <span>Filter</span>
+                                                    </a>
+                                                </div>
+                                                <div class="item-sortir">
+                                                    <div class="label">
+                                                        <span class="mobile-hide">Sort by default</span>
+                                                        <div class="desktop-hide">Default</div>
+                                                        <i class="ri-arrow-down-s-line"></i>
+                                                    </div>
+                                                    <ul>
+                                                        <li>Default</li>
+                                                        <li>Product Name</li>
+                                                        <li>Price</li>
+                                                        <li>Brand</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="item-perpage mobile-hide">
+                                                    <div class="label">Items 10 per page</div>
+                                                    <div class="desktop-hide">10</div>
+                                                </div>
+                                                <div class="item-options">
+                                                    <div class="label">
+                                                        <span class="mobile-hide">Show 10 per page</span>
+                                                        <div class="desktop-hide">10</div>
+                                                        <i class="ri-arrow-down-s-line"></i>
+                                                    </div>
+                                                    <ul>
+                                                        <li>10</li>
+                                                        <li>20</li>
+                                                        <li>30</li>
+                                                        <li>ALL</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products main flexwrap">
+                                        <div class="item">
+                                            <div class="media">
+                                                <div class="thumbnail object-cover">
+                                                    <a href="volta_blackgold.html">
+                                                        <img src="assets/products/volta_blackgold.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="hoverable">
+                                                    <ul>
+                                                        <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                        <li><a href="volta_blackgold.html"><i class="ri-eye-line"></i></a></li>
+                                                        <li><a href="volta_blackgold.html"><i class="ri-shuffle-line"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="discount circle flexcenter"><span>25%</span></div>
+                                            </div>
+                                            <div class="content">
+                                                <div class="rating">
+                                                    <div class="stars"></div>
+                                                    <span class="mini-text">(1,955)</span>
+                                                </div>
+                                                <h3><a href="#">Volta Black Gold</a></h3>
+                                                <div class="price">
+                                                    <span class="current">$56.50</span>
+                                                    <span class="normal mini-text">$75.50</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="media">
+                                                <div class="thumbnail object-cover">
+                                                    <a href="volta_green.html">
+                                                        <img src="assets/products/volta_green.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="hoverable">
+                                                    <ul>
+                                                        <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="discount circle flexcenter"><span>17%</span></div>
+                                            </div>
+                                            <div class="content">
+                                                <div class="rating">
+                                                    <div class="stars"></div>
+                                                    <span class="mini-text">(994)</span>
+                                                </div>
+                                                <h3><a href="#">Volta Green</a></h3>
+                                                <div class="price">
+                                                    <span class="current">$37.50</span>
+                                                    <span class="normal mini-text">$45.50</span>
+                                                </div>
+                                                <div class="footer">
+                                                    <ul class="mini-text">
+                                                        <li>Polyester, Cotton</li>
+                                                        <li>Pull On closure</li>
+                                                        <li>Fashion Personality</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="media">
+                                                <div class="thumbnail object-cover">
+                                                    <a href="volta_red.html">
+                                                        <img src="assets/products/volta_red.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="hoverable">
+                                                    <ul>
+                                                        <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="discount circle flexcenter"><span>31%</span></div>
+                                            </div>
+                                            <div class="content">
+                                                <div class="rating">
+                                                    <div class="stars"></div>
+                                                    <span class="mini-text">(3,459)</span>
+                                                </div>
+                                                <h3><a href="#">Volta Red</a></h3>
+                                                <div class="price">
+                                                    <span class="current">$129.99</span>
+                                                    <span class="normal mini-text">$189.98</span>
+                                                </div>
+                                                <div class="footer">
+                                                    <ul class="mini-text">
+                                                        <li>65% Polyester, 35% Cotton</li>
+                                                        <li>Imported</li>
+                                                        <li>Machine Wash</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="media">
+                                                <div class="thumbnail object-cover">
+                                                    <a href="volta_blackwhite.html">
+                                                        <img src="assets/products/volta_blackwhite.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="hoverable">
+                                                    <ul>
+                                                        <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="discount circle flexcenter"><span>35%</span></div>
+                                            </div>
+                                            <div class="content">
+                                                <div class="rating">
+                                                    <div class="stars"></div>
+                                                    <span class="mini-text">(10)</span>
+                                                </div>
+                                                <h3><a href="#">Volta Black White</a></h3>
+                                                <div class="price">
+                                                    <span class="current">$118.90</span>
+                                                    <span class="normal mini-text">$189.90</span>
+                                                </div>
+                                                <div class="footer">
+                                                    <ul class="mini-text">
+                                                        <li>Polyester, Cotton</li>
+                                                        <li>Pull On closure</li>
+                                                        <li>Fashion Personality</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="media">
+                                                <div class="thumbnail object-cover">
+                                                    <a href="volta_allblack.html">
+                                                        <img src="assets/products/volta_allblack.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="hoverable">
+                                                    <ul>
+                                                        <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="discount circle flexcenter"><span>32%</span></div>
+                                            </div>
+                                            <div class="content">
+                                                <div class="rating">
+                                                    <div class="stars"></div>
+                                                    <span class="mini-text">(2,551)</span>
+                                                </div>
+                                                <h3><a href="#">Volta All Black</a></h3>
+                                                <div class="price">
+                                                    <span class="current">$80.90</span>
+                                                    <span class="normal mini-text">$119.90</span>
+                                                </div>
+                                                <div class="footer">
+                                                    <ul class="mini-text">
+                                                        <li>Polyester, Cotton</li>
+                                                        <li>Pull On closure</li>
+                                                        <li>Fashion Personality</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="media">
+                                                <div class="thumbnail object-cover">
+                                                    <a href="thunder_yellow.html">
+                                                        <img src="assets/products/thunder_yellow.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="hoverable">
+                                                    <ul>
+                                                        <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="discount circle flexcenter"><span>30%</span></div>
+                                            </div>
+                                            <div class="content">
+                                                <div class="rating">
+                                                    <div class="stars"></div>
+                                                    <span class="mini-text">(1,237)</span>
+                                                </div>
+                                                <h3><a href="#">Thunder Yellow</a></h3>
+                                                <div class="price">
+                                                    <span class="current">$45.95</span>
+                                                    <span class="normal mini-text">$64.95</span>
+                                                </div>
+                                                <div class="footer">
+                                                    <ul class="mini-text">
+                                                        <li>Polyester, Cotton</li>
+                                                        <li>Pull On closure</li>
+                                                        <li>Fashion Personality</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="media">
+                                                <div class="thumbnail object-cover">
+                                                    <a href="thunder_grey.html">
+                                                        <img src="assets/products/thunder_grey.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="hoverable">
+                                                    <ul>
+                                                        <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="discount circle flexcenter"><span>25%</span></div>
+                                            </div>
+                                            <div class="content">
+                                                <div class="rating">
+                                                    <div class="stars"></div>
+                                                    <span class="mini-text">(106)</span>
+                                                </div>
+                                                <h3><a href="#">Thunder Grey</a></h3>
+                                                <div class="price">
+                                                    <span class="current">$139.99</span>
+                                                    <span class="normal mini-text">$189.98</span>
+                                                </div>
+                                                <div class="footer">
+                                                    <ul class="mini-text">
+                                                        <li>Polyester, Cotton</li>
+                                                        <li>Pull On closure</li>
+                                                        <li>Fashion Personality</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="media">
+                                                <div class="thumbnail object-cover">
+                                                    <a href="thunder_black.html">
+                                                        <img src="assets/products/thunder_black.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="hoverable">
+                                                    <ul>
+                                                        <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="discount circle flexcenter"><span>25%</span></div>
+                                            </div>
+                                            <div class="content">
+                                                <div class="rating">
+                                                    <div class="stars"></div>
+                                                    <span class="mini-text">(106)</span>
+                                                </div>
+                                                <h3><a href="#">Thunder Black</a></h3>
+                                                <div class="price">
+                                                    <span class="current">$139.99</span>
+                                                    <span class="normal mini-text">$189.98</span>
+                                                </div>
+                                                <div class="footer">
+                                                    <ul class="mini-text">
+                                                        <li>Polyester, Cotton</li>
+                                                        <li>Pull On closure</li>
+                                                        <li>Fashion Personality</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="media">
+                                                <div class="thumbnail object-cover">
+                                                    <a href="thunder_red.html">
+                                                        <img src="assets/products/thunder_red.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="hoverable">
+                                                    <ul>
+                                                        <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="discount circle flexcenter"><span>25%</span></div>
+                                            </div>
+                                            <div class="content">
+                                                <div class="rating">
+                                                    <div class="stars"></div>
+                                                    <span class="mini-text">(106)</span>
+                                                </div>
+                                                <h3><a href="#">Thunder Red</a></h3>
+                                                <div class="price">
+                                                    <span class="current">$139.99</span>
+                                                    <span class="normal mini-text">$189.98</span>
+                                                </div>
+                                                <div class="footer">
+                                                    <ul class="mini-text">
+                                                        <li>Polyester, Cotton</li>
+                                                        <li>Pull On closure</li>
+                                                        <li>Fashion Personality</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="media">
+                                                <div class="thumbnail object-cover">
+                                                    <a href="beta_grey.html">
+                                                        <img src="assets/products/beta_grey.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="hoverable">
+                                                    <ul>
+                                                        <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="discount circle flexcenter"><span>25%</span></div>
+                                            </div>
+                                            <div class="content">
+                                                <div class="rating">
+                                                    <div class="stars"></div>
+                                                    <span class="mini-text">(106)</span>
+                                                </div>
+                                                <h3><a href="#">Beta Grey</a></h3>
+                                                <div class="price">
+                                                    <span class="current">$139.99</span>
+                                                    <span class="normal mini-text">$189.98</span>
+                                                </div>
+                                                <div class="footer">
+                                                    <ul class="mini-text">
+                                                        <li>Polyester, Cotton</li>
+                                                        <li>Pull On closure</li>
+                                                        <li>Fashion Personality</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="media">
+                                                <div class="thumbnail object-cover">
+                                                    <a href="beta_allblack.html">
+                                                        <img src="assets/products/beta_allblack.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="hoverable">
+                                                    <ul>
+                                                        <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="discount circle flexcenter"><span>25%</span></div>
+                                            </div>
+                                            <div class="content">
+                                                <div class="rating">
+                                                    <div class="stars"></div>
+                                                    <span class="mini-text">(106)</span>
+                                                </div>
+                                                <h3><a href="#">Beta All Black</a></h3>
+                                                <div class="price">
+                                                    <span class="current">$139.99</span>
+                                                    <span class="normal mini-text">$189.98</span>
+                                                </div>
+                                                <div class="footer">
+                                                    <ul class="mini-text">
+                                                        <li>Polyester, Cotton</li>
+                                                        <li>Pull On closure</li>
+                                                        <li>Fashion Personality</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="media">
+                                                <div class="thumbnail object-cover">
+                                                    <a href="beta_brown.html">
+                                                        <img src="assets/products/beta_brown.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="hoverable">
+                                                    <ul>
+                                                        <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="discount circle flexcenter"><span>25%</span></div>
+                                            </div>
+                                            <div class="content">
+                                                <div class="rating">
+                                                    <div class="stars"></div>
+                                                    <span class="mini-text">(106)</span>
+                                                </div>
+                                                <h3><a href="#">Beta Brown</a></h3>
+                                                <div class="price">
+                                                    <span class="current">$139.99</span>
+                                                    <span class="normal mini-text">$189.98</span>
+                                                </div>
+                                                <div class="footer">
+                                                    <ul class="mini-text">
+                                                        <li>Polyester, Cotton</li>
+                                                        <li>Pull On closure</li>
+                                                        <li>Fashion Personality</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="media">
+                                                <div class="thumbnail object-cover">
+                                                    <a href="vamos_yellowblue.html">
+                                                        <img src="assets/products/vamos_yellowblue.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="hoverable">
+                                                    <ul>
+                                                        <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="discount circle flexcenter"><span>25%</span></div>
+                                            </div>
+                                            <div class="content">
+                                                <div class="rating">
+                                                    <div class="stars"></div>
+                                                    <span class="mini-text">(106)</span>
+                                                </div>
+                                                <h3><a href="#">Vamos Yellow Blue</a></h3>
+                                                <div class="price">
+                                                    <span class="current">$139.99</span>
+                                                    <span class="normal mini-text">$189.98</span>
+                                                </div>
+                                                <div class="footer">
+                                                    <ul class="mini-text">
+                                                        <li>Polyester, Cotton</li>
+                                                        <li>Pull On closure</li>
+                                                        <li>Fashion Personality</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="media">
+                                                <div class="thumbnail object-cover">
+                                                    <a href="vamos_bluegreen.html">
+                                                        <img src="assets/products/vamos_bluegreen.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="hoverable">
+                                                    <ul>
+                                                        <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="discount circle flexcenter"><span>25%</span></div>
+                                            </div>
+                                            <div class="content">
+                                                <div class="rating">
+                                                    <div class="stars"></div>
+                                                    <span class="mini-text">(106)</span>
+                                                </div>
+                                                <h3><a href="#">Vamos Blue Green</a></h3>
+                                                <div class="price">
+                                                    <span class="current">$139.99</span>
+                                                    <span class="normal mini-text">$189.98</span>
+                                                </div>
+                                                <div class="footer">
+                                                    <ul class="mini-text">
+                                                        <li>Polyester, Cotton</li>
+                                                        <li>Pull On closure</li>
+                                                        <li>Fashion Personality</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="media">
+                                                <div class="thumbnail object-cover">
+                                                    <a href="vamos_yellowblack.html">
+                                                        <img src="assets/products/vamos_yellowblack.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="hoverable">
+                                                    <ul>
+                                                        <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="discount circle flexcenter"><span>25%</span></div>
+                                            </div>
+                                            <div class="content">
+                                                <div class="rating">
+                                                    <div class="stars"></div>
+                                                    <span class="mini-text">(106)</span>
+                                                </div>
+                                                <h3><a href="#">Vamos Yellow Black</a></h3>
+                                                <div class="price">
+                                                    <span class="current">$139.99</span>
+                                                    <span class="normal mini-text">$189.98</span>
+                                                </div>
+                                                <div class="footer">
+                                                    <ul class="mini-text">
+                                                        <li>Polyester, Cotton</li>
+                                                        <li>Pull On closure</li>
+                                                        <li>Fashion Personality</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="media">
+                                                <div class="thumbnail object-cover">
+                                                    <a href="vamos_independentred.html">
+                                                        <img src="assets/products/vamos_independentred.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="hoverable">
+                                                    <ul>
+                                                        <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                        <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="discount circle flexcenter"><span>25%</span></div>
+                                            </div>
+                                            <div class="content">
+                                                <div class="rating">
+                                                    <div class="stars"></div>
+                                                    <span class="mini-text">(106)</span>
+                                                </div>
+                                                <h3><a href="#">Vamos Independent Red</a></h3>
+                                                <div class="price">
+                                                    <span class="current">$139.99</span>
+                                                    <span class="normal mini-text">$189.98</span>
+                                                </div>
+                                                <div class="footer">
+                                                    <ul class="mini-text">
+                                                        <li>Polyester, Cotton</li>
+                                                        <li>Pull On closure</li>
+                                                        <li>Fashion Personality</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+     
+        </main>
+        <!-- Main -->
+
+        <footer>
+            <div class="newsletter">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="box">
+                            <div class="content">
+                                <h3>Join Our Newsletter</h3>
+                                <p>Get E-mail updates about our latest shop and <strong>special offers</strong></p>
+                            </div>
+                            <form action="" class="search">
+                                <span class="icon-large"><i class="ri-mail-line"></i></span>
+                                <input type="mail" placeholder="Your email address" required>
+                                <button type="submit">Sign Up</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- newsletter -->
+
+            <div class="widgets">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="flexwrap">
+                            <div class="row">
+                                <div class="item mini-links">
+                                    <h4>Help & Contact</h4>
+                                    <ul class="flexcol">
+                                        <li><a href="#">Your Account</a></li>
+                                        <li><a href="#">Your Orders</a></li>
+                                        <li><a href="#">Shipping Rates</a></li>
+                                        <li><a href="#">Returns</a></li>
+                                        <li><a href="#">Assistant</a></li>
+                                        <li><a href="#">Help</a></li>
+                                        <li><a href="#">Contact us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="item mini-links" style="margin-right: 30px;">
+                                    <h4>Product Categories</h4>
+                                    <ul class="flexcol1">
+                                        <li><a href="volta_blackgold.html">Volta Black Gold</a></li>
+                                        <li><a href="volta_blackwhite.html">Volta Black White</a></li>
+                                        <li><a href="volta_red.html">Volta Red</a></li>
+                                        <li><a href="volta_green.html">Volta Green</a></li>
+                                        <li><a href="volta_allblack.html">Volta All Black</a></li>
+                                        <li><a href="thunder_red.html">Thunder Red</a></li>
+                                        <li><a href="thunder_black.html">Thunder Black</a></li>
+                                        <li><a href="thunder_grey.html">Thunder Grey</a></li>
+                                        <li><a href="thunder_yellow.html">Thunder Yellow</a></li>
+                                        <li><a href="vamos_yellowblack.html">Vamos Yellow Black</a></li>
+                                        <li><a href="vamos_bluegreen.html">Vamos Blue Green</a></li>
+                                        <li><a href="vamos_yellowblue.html">Vamos Yellow Blue</a></li>
+                                        <li><a href="vamos_independentred.html">Vamos Independent Red</a></li>
+                                        <li><a href="beta_allblack.html">Beta All Black</a></li>
+                                        <li><a href="beta_grey.html">Beta Grey</a></li>
+                                        <li><a href="beta_brown.html">Beta Brown</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="item mini-links">
+                                    <h4>Payment Info</h4>
+                                    <ul class="flexcol">
+                                        <li><a href="#">Bussiness Card</a></li>
+                                        <li><a href="#">Shop with Points</a></li>
+                                        <li><a href="#">Reload Your Balance</a></li>
+                                        <li><a href="#">Paypal</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="item mini-links">
+                                    <h4>About Us</h4>
+                                    <ul class="flexcol">
+                                        <li><a href="">Company Info</a></li>
+                                        <li><a href="">News</a></li>
+                                        <li><a href="">Investors</a></li>
+                                        <li><a href="">Careers</a></li>
+                                        <li><a href="">Policies</a></li>
+                                        <li><a href="">Customer reviews</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- widgets-->
+
+            <div class="footer-info">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="flexcol">
+                            <div class="logo">
+                                <a href=""><span class="circle"></span>SAUKASS®</a>
+                            </div>
+                            <div class="socials">
+                                <ul class="flexitem">
+                                    <li><a href="#"><i class="ri-twitter-line"></i></a></li>
+                                    <li><a href="#"><i class="ri-facebook-line"></i></a></li>
+                                    <li><a href="#"><i class="ri-instagram-line"></i></a></li>
+                                    <li><a href="#"><i class="ri-linkedin-line"></i></a></li>
+                                    <li><a href="#"><i class="ri-youtube-line"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="mini-text">Copyright 2022 © SAUKASS®. All right reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer -->
+
+        <div class="menu-bottom desktop-hide">
+            <div class="container">
+                <div class="wrapper">
+                    <nav>
+                        <ul class="flexitem">
+                            <li>
+                                <a href="#">
+                                    <i class="ri-bar-chart-line"></i>
+                                    <span>Trending</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="ri-user-6-line"></i>
+                                    <span>Account</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="ri-heart-line"></i>
+                                    <span>Wishlist</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#0" class="t-search">
+                                    <i class="ri-search-line"></i>
+                                    <span>Search</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#0" class="cart-trigger">
+                                    <i class="ri-shopping-cart-line"></i>
+                                    <span>Cart</span>
+                                    <div class="fly-item">
+                                        <span class="item-number">0</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- menu bottom -->
+
+        <div class="search-bottom desktop-hide">
+            <div class="container">
+                <div class="wrapper">
+                    <form action="" class="search">
+                        <a href="#" class="t-close search-close flexcenter"><i class="ri-close-line"></i></a>
+                        <span class="icon-large"><i class="ri-search-line"></i></span>
+                        <input type="search" placeholder="Search" required>
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- search bottom -->
+
+        <div class="overlay"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.js"></script>
+    <script src="script.js"></script>
+    <script>
+        const FtoShow = '.filter';
+        const Fpopup = document.querySelector(FtoShow);
+        const Ftrigger = document.querySelector('.filter-trigger');
+
+        Ftrigger.addEventListener('click', () => {
+            setTimeout(() => {
+                if(!Fpopup.classList.contains('show')) {
+                    Fpopup.classList.add('show')
+                }
+            }, 250 )
+        })
+
+        //auto close by click outside .filter
+        document.addEventListener('click', (e) => {
+            const isClosest = e.target.closest(FtoShow);
+            if(!isClosest && Fpopup.classList.contains('show')) {
+                Fpopup.classList.remove('show')
+            }
+        })
+    </script>
+</body>
+
+</html>
